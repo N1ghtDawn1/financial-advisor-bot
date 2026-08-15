@@ -40,3 +40,6 @@ yarn-error.log*
 /work/
 __pycache__/
 *.pyc
+dev-server.log
+dev-server-error.log
+*.tar.gz

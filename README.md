@@ -44,8 +44,8 @@ The pipeline writes `results/evaluation.json`, `results/evaluation_ledger.csv`, 
 Install Node.js 22 or later, then run:
 
 ```powershell
-pnpm install
-pnpm dev
+npm install
+npm run dev
 ```
 
 Open the local address printed in the terminal. The browser reads `public/evaluation.json`, so every decision, value and chart uses the Python evaluation evidence.
@@ -68,17 +68,6 @@ financial-advisor-bot/
 ├── config.json             Reproducible assumptions
 └── run_pipeline.py         End-to-end training and evaluation
 ```
-
-## Suggested four-minute demonstration
-
-1. Open the dashboard and state the template number and simulation boundary.
-2. Show the training/test counts and best-result card.
-3. Move the decision slider and switch between policies.
-4. Reveal an evidence trace and connect it to the explanation.
-5. Show cash, holdings, quantity, fee and reconciled portfolio value.
-6. Compare all three equity curves and risk metrics.
-7. Run the six Python tests and show that they pass.
-8. End with the limitations: generated data, one asset, one fixed run and no live trading.
 
 ## Academic integrity and limitations
 
